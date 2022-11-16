@@ -9,6 +9,7 @@ namespace blazortest.Pages;
 public class ErrorModel : PageModel
 {
     public string? RequestId { get; set; }
+    public int mynum;
 
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
